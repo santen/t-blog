@@ -1,0 +1,38 @@
+UserBundle\Entity\Users:
+    type: entity
+    table: users
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        nickname:
+            type: string
+            nullable: false
+            length: 40
+            fixed: false
+            comment: ''
+        mail:
+            type: string
+            nullable: false
+            length: 80
+            fixed: false
+            comment: ''
+        passwd:
+            type: string
+            nullable: false
+            length: 300
+            fixed: false
+            comment: ''
+        posts:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            default: '0'
+    lifecycleCallbacks: {  }
