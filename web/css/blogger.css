@@ -105,9 +105,25 @@ body{
 	margin-top: -18px;
 	background: rgba(0, 0, 0, 0.6);
 	color: #FFF;
-	font-size: 14px;
+	font-size: 12px;
 	font-family: Arial;
 	position: absolute;
 	display: none;
 	z-index: 12;
+	cursor: pointer;
+}
+
+.account-sidebar-menu{
+	width: 150px;
+	margin: 10px auto;
+	text-align: left;
+}
+
+.avatar-upload{
+	display: none;
+}
+
+.sidebar-widget{
+	margin: 25px auto;
+	text-align: left;
 }
